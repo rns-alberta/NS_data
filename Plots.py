@@ -304,8 +304,8 @@ print('17. 3D plot of (M-M*)/M*, normalized omega and compactness')
 print('18. 3D plot of (M-M_0)/M_0, normalized omega and compactness')
 
 # Choose the number of the desired plot 
-#method = input()
-method = 18
+method = input()
+#method = 18
 
 if method == 1:
     plt.scatter(ec_AB1, M_AB1, s=3, label = 'EOS ABPR1')
