@@ -68,8 +68,8 @@ print('17. 3D plot of (M-M*)/M*, normalized omega and compactness')
 print('18. 3D plot of (M-M_0)/M_0, normalized omega and compactness')
 
 # Choose the number of the desired plot 
-#method = input()
-method = 1
+method = input()
+#method = 1
 
 if method == 1:
     plt.scatter(ec, M, s=3)
