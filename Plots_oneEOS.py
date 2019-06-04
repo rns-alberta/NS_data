@@ -86,8 +86,8 @@ print('---------------------------------------------------------------')
 
 
 # Choose the number of the desired plot 
-#method = input()
-method = 2
+method = input()
+#method = 2
 
 fil = filename.replace('NS_data_eos', '')
 name = fil.replace('.txt', '')
